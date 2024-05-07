@@ -39,8 +39,8 @@ def event_stream(conversation: list[dict]) -> str:
                 yield text
 
 
-# if __name__ == '__main__':
-#     # app.run(debug=True, host="127.0.0.1", port=5000)
-#     # messages = build_conversation_dict(["Bonjour, quel model es-tu ?"])
-#     # for line in event_stream(messages):
-#     #     print(line)
+if __name__ == '__main__':
+    app.run(debug=True, host="127.0.0.1", port=5000)
+    # messages = build_conversation_dict(["Bonjour, quel model es-tu ?"])
+    # for line in event_stream(messages):
+    #     print(line)
