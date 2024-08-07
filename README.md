@@ -25,7 +25,7 @@ JS libraries:
 - install ollama
   ```curl -fsSL https://ollama.com/install.sh | sh```
 - run model
-  ```ollama pull llama3.1``` I use this model, select has you want
+  ```ollama pull llama3.1``` I use this model, select has you want, I recommend less model if you don't have dedicate GPU
   
 - clone this repo
 ```git clone https://github.com/Aissam-salman/chatOllama.git```
