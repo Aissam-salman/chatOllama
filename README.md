@@ -36,4 +36,4 @@ JS libraries:
 ```poetry install```
 
 - run server flask 
-```flask run --debug```
+```python app.py```
