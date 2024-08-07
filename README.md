@@ -20,10 +20,18 @@ JS libraries:
 - showdown
 
 ## Getting started
+
+- go here : https://ollama.com/
+- install ollama
+  ```curl -fsSL https://ollama.com/install.sh | sh```
+- run model
+  ```ollama pull llama3.1``` I use this model, select has you want
+  
 - clone this repo
 ```git clone https://github.com/Aissam-salman/chatOllama.git```
 - go to chatOllama directory
 ```cd chatOllama```
+
 - install poetry 
 
 **linux, macOS**
@@ -33,7 +41,10 @@ JS libraries:
 ```(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py - ```
 
 - install package 
-```poetry install```
+```poetry install && poetry update```
 
 - run server flask 
-```python app.py```
+```python app.py or flask run```
+- Open your navigator with http://127.0.0.1:5000
+- Start chat with model selected
+
