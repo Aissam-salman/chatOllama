@@ -1,7 +1,8 @@
 # Chat ollama with llama3 model
 ![img.png](img.png)
 
-![Ollama chat with python & flask - Made with Clipchamp.mp4](Ollama chat with python & flask - Made with Clipchamp.mp4)
+https://github.com/user-attachments/assets/78af788a-efbb-4b3e-935d-f26e3227ad63
+
 
 ## Stack
 - python3.12.3
